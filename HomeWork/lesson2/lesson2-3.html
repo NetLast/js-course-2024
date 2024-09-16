@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привітання</title>
+</head>
+<body>
+    <p id = "helloButton">Hello </p>
+    <button id="btn">Скажи привіт</button>
+
+    <script>
+        document.getElementById("helloButton").onclick = function () {
+            let helloButton = document.getElementById("helloButton");
+            helloButton.innerHTML = "Hello, Nata!";
+            helloButton.style = "red";
+        };
+    </script>
+</body>
+</html>
